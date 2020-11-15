@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
@@ -52,7 +53,9 @@ export const Description = styled.h2`
   margin-top: 8px;
 `;
 
-export const ButtonWrapper = styled.a`
+export const ButtonLink = styled(Link)``;
+
+export const ButtonWrapper = styled.span`
   transition: 0.15s all cubic-bezier(0, 0, 0.2, 1);
   display: flex;
   align-items: center;
@@ -60,6 +63,7 @@ export const ButtonWrapper = styled.a`
   font-size: 1.125rem;
   font-weight: bold;
   color: var(--primary-text);
+  cursor: pointer;
   & svg {
     margin-left: 4px;
   }

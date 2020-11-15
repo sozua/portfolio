@@ -21,9 +21,11 @@ export default function PostItem({ date, category, categoryUrl, title, descripti
         </S.DateAndCategoryWrapper>
         <S.Title>{title}</S.Title>
         <S.Description>{description}</S.Description>
-        <S.ButtonWrapper href={url}>
-          Ler <Icon.UilArrowRight />
-        </S.ButtonWrapper>
+        <S.ButtonLink href={url}>
+          <S.ButtonWrapper>
+            Ler <Icon.UilArrowRight />
+          </S.ButtonWrapper>
+        </S.ButtonLink>
     </S.Wrapper>
   );
 }

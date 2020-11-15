@@ -1,4 +1,4 @@
-import * as S from "../pages-styles/sobre";
+import * as S from "../styles/pages/sobre";
 
 export default function About() {
   return (

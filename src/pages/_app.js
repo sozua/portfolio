@@ -1,3 +1,4 @@
+import Head from "next/head";
 import styled from "styled-components";
 
 import Navbar from "../components/Navbar";
@@ -30,12 +31,18 @@ const ContentWrapper = styled.div`
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Wrapper>
-      <Navbar />
-      <ContentWrapper>
-        <Component {...pageProps} />
-      </ContentWrapper>
-    </Wrapper>
+    <>
+      <Head>
+        <title>Diogo de Souza - Desenvolvedor front-end</title>
+        <script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script>
+      </Head>
+      <Wrapper>
+        <Navbar />
+        <ContentWrapper>
+          <Component {...pageProps} />
+        </ContentWrapper>
+      </Wrapper>
+    </>
   );
 }
 

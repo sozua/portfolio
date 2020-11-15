@@ -11,6 +11,7 @@
     "@iconscout/react-unicons": "^1.1.5",
     "@iconscout/react-unicons-solid": "^0.0.2",
     "@types/styled-components": "^5.1.4",
+    "frontmatter-markdown-loader": "^3.6.1",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
