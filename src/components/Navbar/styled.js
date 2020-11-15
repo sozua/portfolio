@@ -10,6 +10,12 @@ export const Wrapper = styled.div`
   & > *:not(img) {
     padding-right: 48px;
   }
+  @media (max-width: 1280px) {
+    grid-column: 1 / -1;
+    padding: 0 32px;
+    position: initial;
+    height: auto;
+  }
 `;
 
 export const Image = styled.img`
@@ -49,6 +55,12 @@ export const LinksWrapper = styled.div`
   & a:hover {
     color: #444;
   }
+  @media (max-width: 1280px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 32px 0;
+  }
 `;
 
 export const SocialMediaWrapper = styled.div`
@@ -84,4 +96,7 @@ export const Copyright = styled.p`
   color: #777;
   bottom: 48px;
   left: 0;
+  @media (max-width: 1280px) {
+    display: none;
+  }
 `;

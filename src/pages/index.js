@@ -19,22 +19,6 @@ export default function Home() {
         description='Nesse curto ensaio, tratei de analisar a landing page do app de livros The Pilgrim.'
         url='/post/the_pilgrim'
       />
-      <PostItem
-        date='12 de Novembro de 2020'
-        category='Estudo de caso'
-        categoryUrl='estudo_de_caso'
-        title='Estudo de caso da landing page da The Pilgrim'
-        description='Nesse curto ensaio, tratei de analisar a landing page do app de livros The Pilgrim.'
-        url='/post/the_pilgrim'
-      />
-      <PostItem
-        date='12 de Novembro de 2020'
-        category='Estudo de caso'
-        categoryUrl='estudo_de_caso'
-        title='Estudo de caso da landing page da The Pilgrim'
-        description='Nesse curto ensaio, tratei de analisar a landing page do app de livros The Pilgrim.'
-        url='/post/the_pilgrim'
-      />
     </>
   );
 }
