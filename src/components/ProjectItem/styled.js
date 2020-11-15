@@ -29,7 +29,6 @@ export const Category = styled.a`
   font-size: 1.125rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--primary-text);
 `;
 
 export const Title = styled.h1`
@@ -49,7 +48,6 @@ export const Description = styled.h2`
 `;
 
 export const ButtonWrapper = styled.a`
-  transition: 0.15s all cubic-bezier(0, 0, 0.2, 1);
   display: flex;
   align-items: center;
   margin: 24px 0 32px 0;
@@ -58,8 +56,5 @@ export const ButtonWrapper = styled.a`
   color: var(--primary-text);
   & svg {
     margin-left: 8px;
-  }
-  &:hover {
-    color: var(--primary-text-light);
   }
 `;

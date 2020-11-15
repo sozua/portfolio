@@ -1,6 +1,6 @@
 import ProjectItem from "../components/ProjectItem";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <ProjectItem

@@ -12,8 +12,14 @@ body {
 }
 
 a {
+  transition: 0.15s all cubic-bezier(0, 0, 0.2, 1);
   color: inherit;
   text-decoration: none;
+  color: var(--primary-text);
+}
+
+a:hover {
+  color: var(--primary-text-light);
 }
 
 * {
