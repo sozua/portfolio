@@ -26,10 +26,14 @@ export const Date = styled.h6`
 `;
 
 export const Category = styled.a`
+  transition: 0.15s all cubic-bezier(0, 0, 0.2, 1);
   font-size: 1.125rem;
   font-weight: bold;
   text-transform: uppercase;
   color: var(--primary-text);
+  &:hover {
+    color: var(--primary-text-light);
+  }
 `;
 
 export const Title = styled.h1`

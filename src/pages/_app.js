@@ -11,9 +11,6 @@ const Wrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   @media (max-width: 1501px) {
-    max-width: 1280px;
-  }
-  @media (max-width: 1366px) {
     max-width: 1216px;
   }
   @media (max-width: 1280px) {

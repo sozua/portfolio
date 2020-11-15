@@ -12,9 +12,11 @@ export const Wrapper = styled.div`
   }
   @media (max-width: 1280px) {
     grid-column: 1 / -1;
-    padding: 0 32px;
+    padding: 0 32px 32px 32px;
     position: initial;
     height: auto;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 `;
 
