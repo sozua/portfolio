@@ -9,7 +9,7 @@ export default function Home() {
         categoryUrl='programacao'
         title='React hooks com typescript'
         description='Nesse tutorial, falei sobre como implementar o typescript no react hooks e em algumas outras funcionalidades.'
-        url='/post/react-hooks'
+        url='https://www.notion.so/React-hooks-com-typescript-4384dd3a90b840c2b82d908da9505d2b'
       />
       <PostItem
         date='12 de Novembro de 2020'
