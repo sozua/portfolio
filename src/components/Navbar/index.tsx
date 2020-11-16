@@ -11,8 +11,8 @@ export default function Navbar() {
       <S.MyName>Diogo de Souza</S.MyName>
       <S.Description>Desenvolvedor front-end com conhecimento em UI/UX design, freelancer à procura de emprego formal e entusiasta de open-source.</S.Description>
       <S.LinksWrapper>
-        <Link href='/'>Página inicial</Link>
-        <Link href='/projetos'>Projetos</Link>
+        {/* <Link href='/posts'>Posts</Link> */}
+        <Link href='/'>Projetos</Link>
         <Link href='/sobre'>Sobre mim</Link>
       </S.LinksWrapper>
       <S.SocialMediaWrapper>

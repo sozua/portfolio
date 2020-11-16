@@ -1,23 +1,17 @@
-import PostItem from "../components/PostItem";
+import ProjectItem from "../components/ProjectItem";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
-      <PostItem
-        date='17 de Novembro de 2020'
-        category='Programação'
-        categoryUrl='programacao'
-        title='React hooks com typescript'
-        description='Nesse tutorial, falei sobre como implementar o typescript no react hooks e em algumas outras funcionalidades.'
-        url='https://www.notion.so/React-hooks-com-typescript-4384dd3a90b840c2b82d908da9505d2b'
+      <ProjectItem
+        title='Church Slider'
+        description='Um criador de slides online utilizando Socket.io em Next.js focado para igrejas'
+        url='https://github.com/sozua/slider'
       />
-      <PostItem
-        date='12 de Novembro de 2020'
-        category='Estudo de caso'
-        categoryUrl='estudo_de_caso'
-        title='Estudo de caso da landing page da The Pilgrim'
-        description='Nesse curto ensaio, tratei de analisar a landing page do app de livros The Pilgrim.'
-        url='/post/the_pilgrim'
+      <ProjectItem
+        title='Colors finder'
+        description='Um buscador de cores simples feito usando Next.js com base em uma api externa'
+        url='https://github.com/sozua/colors-finder'
       />
     </>
   );
