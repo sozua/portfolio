@@ -43,6 +43,8 @@ export const Description = styled.h2`
   color: #777;
 `;
 
+export const ActivedLink = styled.span``
+
 export const LinksWrapper = styled.div`
   margin: 64px 0;
   display: flex;
@@ -56,6 +58,10 @@ export const LinksWrapper = styled.div`
   }
   & a:hover {
     color: #444;
+  }
+  & ${ActivedLink} a {
+    color: #777;
+    border-bottom: .75px solid #777;
   }
   @media (max-width: 1280px) {
     flex-direction: row;
