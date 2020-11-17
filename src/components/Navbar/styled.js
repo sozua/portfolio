@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Image from "next/image";
 
 export const Wrapper = styled.div`
   position: sticky;
@@ -12,6 +11,11 @@ export const Wrapper = styled.div`
   & > *:not(img) {
     padding-right: 48px;
   }
+  & img {
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+  }
   @media (max-width: 1280px) {
     grid-column: 1 / -1;
     padding: 96px 32px 32px 32px;
@@ -20,12 +24,6 @@ export const Wrapper = styled.div`
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-`;
-
-export const ProfilePic = styled(Image)`
-  display: block;
-  border-radius: 50%;
-  object-fit: cover;
 `;
 
 export const MyName = styled.h1`
