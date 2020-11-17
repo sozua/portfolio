@@ -15,9 +15,12 @@ export default function Navbar() {
 
   return (
     <S.Wrapper>
-      <S.Image
-        src="https://i2.wp.com/zacwe.st/wp-content/uploads/2019/10/image.jpg?w=960&ssl=1"
-        alt=""
+      <S.ProfilePic
+        src="https://i2.wp.com/zacwe.st/wp-content/uploads/2019/10/image.jpg"
+        alt="Minha selfie"
+        width={156}
+        height={156}
+        layout="fixed"
       />
       <S.MyName>Diogo de Souza</S.MyName>
       <S.Description>

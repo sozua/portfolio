@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Wrapper = styled.div`
   position: sticky;
@@ -7,12 +8,13 @@ export const Wrapper = styled.div`
   grid-column: 1;
   height: 100vh;
   border-right: 2px solid rgba(0, 0, 0, 0.1);
+  padding-top: 96px;
   & > *:not(img) {
     padding-right: 48px;
   }
   @media (max-width: 1280px) {
     grid-column: 1 / -1;
-    padding: 0 32px 32px 32px;
+    padding: 96px 32px 32px 32px;
     position: initial;
     height: auto;
     border: 0;
@@ -20,12 +22,10 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Image = styled.img`
+export const ProfilePic = styled(Image)`
   display: block;
-  width: 156px;
-  height: 156px;
   border-radius: 50%;
-  margin-top: 96px;
+  object-fit: cover;
 `;
 
 export const MyName = styled.h1`
@@ -43,7 +43,7 @@ export const Description = styled.h2`
   color: #777;
 `;
 
-export const ActivedLink = styled.span``
+export const ActivedLink = styled.span``;
 
 export const LinksWrapper = styled.div`
   margin: 64px 0;
@@ -61,7 +61,7 @@ export const LinksWrapper = styled.div`
   }
   & ${ActivedLink} a {
     color: #777;
-    border-bottom: .75px solid #777;
+    border-bottom: 0.75px solid #777;
   }
   @media (max-width: 1280px) {
     flex-direction: row;
