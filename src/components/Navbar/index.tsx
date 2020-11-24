@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import * as S from "./styled";
 
 import * as Icon from "@iconscout/react-unicons";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -16,13 +16,13 @@ export default function Navbar() {
 
   return (
     <S.Wrapper>
-      <Image
+      {/* <Image
         src="https://i2.wp.com/zacwe.st/wp-content/uploads/2019/10/image.jpg"
         alt="Minha selfie"
         width={156}
         height={156}
         layout="fixed"
-      />
+      /> */}
       <S.MyName>Diogo de Souza</S.MyName>
       <S.Description>
         Desenvolvedor front-end com conhecimento em UI/UX design, freelancer à
